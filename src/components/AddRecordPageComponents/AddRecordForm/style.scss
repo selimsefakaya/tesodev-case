@@ -1,0 +1,81 @@
+$background-color_1: lightgray;
+
+.box-add-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 208px;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+
+    input {
+        border-radius: 12px;
+        margin-top: 8px;
+        font-size: 1.8em;
+        width: 90%;
+        height: 25px;
+    }
+
+    label {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8em;
+        font-weight: 700;
+        margin-left: 5px;
+        color: rgb(100, 100, 100);
+    }
+}
+
+.btn-add-record {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-top: 50px;
+
+    button {
+        padding: 13px 50px;
+    }
+}
+
+.disable-btn {
+    background-color: $background-color_1;
+    cursor: default;
+
+    &:hover {
+        background-color: $background-color_1;
+    }
+}
+
+//Error below input box
+$color_1: red;
+$border-color_1: red;
+
+.error-input {
+    * {
+        color: $color_1  !important;
+    }
+
+    input {
+        border-color: $border-color_1  !important;
+
+        &::placeholder {
+            color: $color_1  !important;
+        }
+    }
+
+    p {
+        font-size: 0.8rem;
+        margin: 8px;
+        height: 15px !important;
+        width: 100%;
+    }
+}

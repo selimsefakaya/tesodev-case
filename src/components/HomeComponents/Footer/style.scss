@@ -1,0 +1,49 @@
+$color_1: white;
+$font-family_1: 'Roboto', sans-serif;
+$background-color_1: rgb(101, 127, 181);
+
+.container-footer {
+    width: 1200px;
+    background-color: $background-color_1;
+    margin-top: 60px;
+    margin-left: -80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+    color: $color_1;
+    font-size: 1.8em;
+    font-family: $font-family_1;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+
+    h4 {
+        margin: 0;
+        font-weight: 500;
+    }
+
+    p {
+        font-weight: 400;
+    }
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+
+    span {
+        font-weight: 500;
+    }
+}
+
+.footer-right {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}

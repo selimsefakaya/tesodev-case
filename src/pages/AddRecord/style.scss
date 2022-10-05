@@ -1,0 +1,27 @@
+.container-add-page {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    padding: 24px 17px;
+
+    .head-add-page {
+        padding: 3px 20px;
+        display: flex;
+        gap: 39px;
+    }
+
+    h3 {
+        font-size: 2.4em;
+        margin: 0;
+    }
+
+    .return-list {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .img-back {
+        width: 26px;
+    }
+}

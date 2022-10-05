@@ -1,0 +1,43 @@
+$background-color_1: #FCFCFC;
+
+.body-search-page {
+    width: 100%;
+    background-color: $background-color_1;
+    padding: 27px;
+}
+
+.container-search-page {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.top-s-p {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.top-s-p-search {
+    margin-right: 150px;
+    width: 600px;
+
+    .input-search {
+        width: 65%;
+        border: 1px solid black;
+        padding: 14px 20px;
+        margin-right: 12px;
+    }
+
+    .icon-search {
+        display: none;
+    }
+}
+
+.pagination {
+    width: 73.5%;
+    margin-left: 120px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
